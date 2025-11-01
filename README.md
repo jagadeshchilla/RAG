@@ -24,8 +24,6 @@
 - [Development](#development)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [License](#license)
-
 ---
 
 ## 🎯 Overview
@@ -299,12 +297,6 @@ Contributions are welcome! If you'd like to contribute:
 - Include example outputs where relevant
 - Update `_toc.yml` if adding new modules
 - Test locally before submitting
-
----
-
-## 📄 License
-
-This project is open source and available for educational and research purposes. Please respect individual notebook licenses and attributions where applicable.
 
 ---
 
