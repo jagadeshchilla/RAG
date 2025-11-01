@@ -1,117 +1,159 @@
-# Table of Contents for Jupyter Book - Organized by Folders
 format: jb-book
 root: README
-chapters:
-  # Folder: 0-DataIngestionParsing
-  - title: "0 - Data Ingestion & Parsing"
-    file: 0-DataIngestionParsing/1-dataingestion
-    sections:
+
+parts:
+  - caption: 0-DataIngestionParsing
+    chapters:
+      - file: 0-DataIngestionParsing/1-dataingestion
+        title: Data Ingestion
       - file: 0-DataIngestionParsing/2-dataparsingpdf
+        title: Data Parsing PDF
       - file: 0-DataIngestionParsing/3-dataparsingdoc
+        title: Data Parsing DOC
       - file: 0-DataIngestionParsing/4-csvexcelparsing
+        title: CSV Excel Parsing
       - file: 0-DataIngestionParsing/5-jsonparsing
+        title: JSON Parsing
       - file: 0-DataIngestionParsing/6-databaseparsing
+        title: Database Parsing
 
-  # Folder: 1-VectorEmbeddingAndDatabases
-  - title: "1 - Vector Embeddings & Databases"
-    file: 1-VectorEmbeddingAndDatabases/embeddings
-    sections:
+  - caption: 1-VectorEmbeddingAndDatabases
+    chapters:
+      - file: 1-VectorEmbeddingAndDatabases/embeddings
+        title: Embeddings
       - file: 1-VectorEmbeddingAndDatabases/openaiembeddings
+        title: OpenAI Embeddings
 
-  # Folder: 2-Vector Store
-  - title: "2 - Vector Store"
-    file: 2-Vector Store/1-chromadb
-    sections:
+  - caption: 2-Vector Store
+    chapters:
+      - file: 2-Vector Store/1-chromadb
+        title: ChromaDB
       - file: 2-Vector Store/2-faiss
+        title: FAISS
       - file: 2-Vector Store/3-Othervectorstores
+        title: Other Vector Stores
       - file: 2-Vector Store/4-Datastaxdb
+        title: DataStax DB
       - file: 2-Vector Store/5_PineconeVectorDB
+        title: Pinecone Vector DB
 
-  # Folder: 3-AdvancedChunkingAndPreprocessing
-  - title: "3 - Advanced Chunking & Preprocessing"
-    file: 3-AdvancedChunkingAndPreprocessing/1-semantichunking
+  - caption: 3-AdvancedChunkingAndPreprocessing
+    chapters:
+      - file: 3-AdvancedChunkingAndPreprocessing/1-semantichunking
+        title: Semantic Chunking
 
-  # Folder: 4-HybridSearchStrategies
-  - title: "4 - Hybrid Search Strategies"
-    file: 4-HybridSearchStrategies/1-densesparse
-    sections:
+  - caption: 4-HybridSearchStrategies
+    chapters:
+      - file: 4-HybridSearchStrategies/1-densesparse
+        title: Dense and Sparse Retrieval
       - file: 4-HybridSearchStrategies/2-reranking
+        title: Reranking
       - file: 4-HybridSearchStrategies/3-mmr
+        title: MMR (Maximal Marginal Relevance)
 
-  # Folder: 5-QueryEnhancement
-  - title: "5 - Query Enhancement"
-    file: 5-QueryEnhancement/1-queryexpansion
-    sections:
+  - caption: 5-QueryEnhancement
+    chapters:
+      - file: 5-QueryEnhancement/1-queryexpansion
+        title: Query Expansion
       - file: 5-QueryEnhancement/2-querydecomposition
+        title: Query Decomposition
       - file: 5-QueryEnhancement/3-HyDE
+        title: HyDE (Hypothetical Document Embeddings)
 
-  # Folder: 6-MultiModalRag
-  - title: "6 - Multi-Modal RAG"
-    file: 6-MultiModalRag/1-multimodalopenai
+  - caption: 6-MultiModalRag
+    chapters:
+      - file: 6-MultiModalRag/1-multimodalopenai
+        title: Multi-Modal OpenAI
 
-  # Folder: 7-langgraph Basics
-  - title: "7 - LangGraph Basics"
-    file: 7-langgraph Basics/1-simplegraph
-    sections:
+  - caption: 7-langgraph Basics
+    chapters:
+      - file: 7-langgraph Basics/1-simplegraph
+        title: Simple Graph
       - file: 7-langgraph Basics/2-chatbot
+        title: Chatbot
       - file: 7-langgraph Basics/3-DataclassStateSchema
+        title: Dataclass State Schema
       - file: 7-langgraph Basics/4-pydantic
+        title: Pydantic
       - file: 7-langgraph Basics/5-ChainsLangGraph
+        title: Chains in LangGraph
       - file: 7-langgraph Basics/6-chatbotswithmultipletools
+        title: Chatbots with Multiple Tools
       - file: 7-langgraph Basics/7-ReActAgents
+        title: ReAct Agents
 
-  # Folder: 8-langgraph advance
-  - title: "8 - LangGraph Advanced"
-    file: 8-langgraph advance/1-streaming
+  - caption: 8-langgraph advance
+    chapters:
+      - file: 8-langgraph advance/1-streaming
+        title: Streaming
 
-  # Folder: 9-Debugging (no notebooks, skipped)
-
-  # Folder: 10- Workflows
-  - title: "10 - Workflows"
-    file: 10- Workflows/1-prompting_chaining
-    sections:
+  - caption: 10- Workflows
+    chapters:
+      - file: 10- Workflows/1-prompting_chaining
+        title: Prompting and Chaining
       - file: 10- Workflows/2-parallelization
+        title: Parallelization
       - file: 10- Workflows/3-Routing
+        title: Routing
       - file: 10- Workflows/4-orchestrator-worker
+        title: Orchestrator-Worker Pattern
       - file: 10- Workflows/5-Evaluator-optimizer
+        title: Evaluator-Optimizer Pattern
 
-  # Folder: 11-HumanintheLoop
-  - title: "11 - Human in the Loop"
-    file: 11-HumanintheLoop/1-Humanintheloop
+  - caption: 11-HumanintheLoop
+    chapters:
+      - file: 11-HumanintheLoop/1-Humanintheloop
+        title: Human in the Loop
 
-  # Folder: 12-RAGS
-  - title: "12 - Advanced RAG Techniques"
-    file: 12-RAGS/1-AgenticRAG
-    sections:
+  - caption: 12-RAGS
+    chapters:
+      - file: 12-RAGS/1-AgenticRAG
+        title: Agentic RAG
       - file: 12-RAGS/2-CorrectiveRAG
+        title: Corrective RAG
       - file: 12-RAGS/3-COTRag
+        title: Chain of Thought RAG
       - file: 12-RAGS/4-AdaptiveRAG
+        title: Adaptive RAG
 
-  # Folder: 13-AgenticRag
-  - title: "13 - Agentic RAG"
-    file: 13-AgenticRag/1-agenticrag
-    sections:
+  - caption: 13-AgenticRag
+    chapters:
+      - file: 13-AgenticRag/1-agenticrag
+        title: Agentic RAG
       - file: 13-AgenticRag/2-ReAct
+        title: ReAct Agent
       - file: 13-AgenticRag/3-COTRag
+        title: Chain of Thought RAG
       - file: 13-AgenticRag/4-Selfreflection
+        title: Self Reflection
       - file: 13-AgenticRag/5-QueryPlanningdecomposition
+        title: Query Planning & Decomposition
       - file: 13-AgenticRag/6-Iterativeretrieval
+        title: Iterative Retrieval
       - file: 13-AgenticRag/7-answersynthesis
+        title: Answer Synthesis
       - file: 13-AgenticRag/8-multiagent
+        title: Multi-Agent RAG
       - file: 13-AgenticRag/cache_augment_generation
+        title: Cache-Augmented Generation
       - file: 13-AgenticRag/ragmemory
+        title: RAG Memory
 
-  # Folder: 14-RAG EVALUATION
-  - title: "14 - RAG Evaluation"
-    file: 14-RAG EVALUATION/1-rag_evaluation
+  - caption: 14-RAG EVALUATION
+    chapters:
+      - file: 14-RAG EVALUATION/1-rag_evaluation
+        title: RAG Evaluation
 
-  # Folder: 15-Q&A WITH GRAPHDB
-  - title: "15 - Q&A with Graph DB"
-    file: 15-Q&A WITH GRAPHDB/experiments
-    sections:
+  - caption: 15-Q&A WITH GRAPHDB
+    chapters:
+      - file: 15-Q&A WITH GRAPHDB/experiments
+        title: Experiments
       - file: 15-Q&A WITH GRAPHDB/promptingstartegies
+        title: Prompting Strategies
       - file: 15-Q&A WITH GRAPHDB/promptstatergies
+        title: Prompt Strategies
 
-  # Folder: pydantic
-  - title: "Pydantic"
-    file: pydantic/intro
+  - caption: pydantic
+    chapters:
+      - file: pydantic/intro
+        title: Pydantic Introduction
