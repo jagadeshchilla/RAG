@@ -1,8 +1,9 @@
-# Table of Contents for Jupyter Book
+# Table of Contents for Jupyter Book - Organized by Folders
 format: jb-book
 root: README
 chapters:
-  - title: "Data Ingestion & Parsing"
+  # Folder: 0-DataIngestionParsing
+  - title: "0 - Data Ingestion & Parsing"
     file: 0-DataIngestionParsing/1-dataingestion
     sections:
       - file: 0-DataIngestionParsing/2-dataparsingpdf
@@ -11,12 +12,14 @@ chapters:
       - file: 0-DataIngestionParsing/5-jsonparsing
       - file: 0-DataIngestionParsing/6-databaseparsing
 
-  - title: "Vector Embeddings & Databases"
+  # Folder: 1-VectorEmbeddingAndDatabases
+  - title: "1 - Vector Embeddings & Databases"
     file: 1-VectorEmbeddingAndDatabases/embeddings
     sections:
       - file: 1-VectorEmbeddingAndDatabases/openaiembeddings
 
-  - title: "Vector Store"
+  # Folder: 2-Vector Store
+  - title: "2 - Vector Store"
     file: 2-Vector Store/1-chromadb
     sections:
       - file: 2-Vector Store/2-faiss
@@ -24,25 +27,30 @@ chapters:
       - file: 2-Vector Store/4-Datastaxdb
       - file: 2-Vector Store/5_PineconeVectorDB
 
-  - title: "Advanced Chunking & Preprocessing"
+  # Folder: 3-AdvancedChunkingAndPreprocessing
+  - title: "3 - Advanced Chunking & Preprocessing"
     file: 3-AdvancedChunkingAndPreprocessing/1-semantichunking
 
-  - title: "Hybrid Search Strategies"
+  # Folder: 4-HybridSearchStrategies
+  - title: "4 - Hybrid Search Strategies"
     file: 4-HybridSearchStrategies/1-densesparse
     sections:
       - file: 4-HybridSearchStrategies/2-reranking
       - file: 4-HybridSearchStrategies/3-mmr
 
-  - title: "Query Enhancement"
+  # Folder: 5-QueryEnhancement
+  - title: "5 - Query Enhancement"
     file: 5-QueryEnhancement/1-queryexpansion
     sections:
       - file: 5-QueryEnhancement/2-querydecomposition
       - file: 5-QueryEnhancement/3-HyDE
 
-  - title: "Multi-Modal RAG"
+  # Folder: 6-MultiModalRag
+  - title: "6 - Multi-Modal RAG"
     file: 6-MultiModalRag/1-multimodalopenai
 
-  - title: "LangGraph Basics"
+  # Folder: 7-langgraph Basics
+  - title: "7 - LangGraph Basics"
     file: 7-langgraph Basics/1-simplegraph
     sections:
       - file: 7-langgraph Basics/2-chatbot
@@ -52,10 +60,14 @@ chapters:
       - file: 7-langgraph Basics/6-chatbotswithmultipletools
       - file: 7-langgraph Basics/7-ReActAgents
 
-  - title: "LangGraph Advanced"
+  # Folder: 8-langgraph advance
+  - title: "8 - LangGraph Advanced"
     file: 8-langgraph advance/1-streaming
 
-  - title: "Workflows"
+  # Folder: 9-Debugging (no notebooks, skipped)
+
+  # Folder: 10- Workflows
+  - title: "10 - Workflows"
     file: 10- Workflows/1-prompting_chaining
     sections:
       - file: 10- Workflows/2-parallelization
@@ -63,17 +75,20 @@ chapters:
       - file: 10- Workflows/4-orchestrator-worker
       - file: 10- Workflows/5-Evaluator-optimizer
 
-  - title: "Human in the Loop"
+  # Folder: 11-HumanintheLoop
+  - title: "11 - Human in the Loop"
     file: 11-HumanintheLoop/1-Humanintheloop
 
-  - title: "Advanced RAG Techniques"
+  # Folder: 12-RAGS
+  - title: "12 - Advanced RAG Techniques"
     file: 12-RAGS/1-AgenticRAG
     sections:
       - file: 12-RAGS/2-CorrectiveRAG
       - file: 12-RAGS/3-COTRag
       - file: 12-RAGS/4-AdaptiveRAG
 
-  - title: "Agentic RAG"
+  # Folder: 13-AgenticRag
+  - title: "13 - Agentic RAG"
     file: 13-AgenticRag/1-agenticrag
     sections:
       - file: 13-AgenticRag/2-ReAct
@@ -86,14 +101,17 @@ chapters:
       - file: 13-AgenticRag/cache_augment_generation
       - file: 13-AgenticRag/ragmemory
 
-  - title: "RAG Evaluation"
+  # Folder: 14-RAG EVALUATION
+  - title: "14 - RAG Evaluation"
     file: 14-RAG EVALUATION/1-rag_evaluation
 
-  - title: "Q&A with Graph DB"
+  # Folder: 15-Q&A WITH GRAPHDB
+  - title: "15 - Q&A with Graph DB"
     file: 15-Q&A WITH GRAPHDB/experiments
     sections:
       - file: 15-Q&A WITH GRAPHDB/promptingstartegies
       - file: 15-Q&A WITH GRAPHDB/promptstatergies
 
+  # Folder: pydantic
   - title: "Pydantic"
     file: pydantic/intro
