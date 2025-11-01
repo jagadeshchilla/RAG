@@ -1,0 +1,55 @@
+# Jupyter Book Configuration
+title: RAG Tutorial Collection
+author: Your Name
+
+# Execute notebooks but preserve existing outputs
+execute:
+  execute_notebooks: off  # Don't rerun notebooks, keep existing outputs
+
+# Book settings
+html:
+  use_repository_button: true
+  use_edit_page_button: false
+  use_issues_button: true
+  baseurl: ""  # Update this if you have a custom base URL
+
+# Repository information (update with your actual repo URL)
+repository:
+  url: https://github.com/yourusername/RAG
+  branch: main
+
+sphinx:
+  config:
+    html_theme: sphinx_book_theme
+    html_title: "RAG Tutorial Collection"
+    exclude_patterns:
+      - ".venv/**"
+      - "**/__pycache__/**"
+      - "**/.venv/**"
+      - "**/node_modules/**"
+      - "**/.git/**"
+      - "**/_build/**"
+      - "**/data/**"
+      - "**/chroma_db/**"
+      - "**/faiss_index/**"
+      - "**/output/**"
+      - "**/*.db"
+      - "**/*.sqlite3"
+      - "**/*.xlsx"
+      - "**/*.csv"
+      - "**/*.pdf"
+      - "**/*.txt"
+      - "**/*.json"
+      - "**/*.jsonl"
+      - "**/*.docx"
+      - "**/research_notes.txt"
+      - "**/sample_docs.txt"
+      - "**/langchain*.txt"
+      - "**/.gitignore"
+      - "**/requirements.txt"
+      - "**/pyproject.toml"
+      - "**/uv.lock"
+      - "**/main.py"
+      - "**/openai_agent.py"
+      - "**/langgraph.json"
+    

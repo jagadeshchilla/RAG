@@ -1,0 +1,99 @@
+# Table of Contents for Jupyter Book
+format: jb-book
+root: README
+chapters:
+  - title: "Data Ingestion & Parsing"
+    file: 0-DataIngestionParsing/1-dataingestion
+    sections:
+      - file: 0-DataIngestionParsing/2-dataparsingpdf
+      - file: 0-DataIngestionParsing/3-dataparsingdoc
+      - file: 0-DataIngestionParsing/4-csvexcelparsing
+      - file: 0-DataIngestionParsing/5-jsonparsing
+      - file: 0-DataIngestionParsing/6-databaseparsing
+
+  - title: "Vector Embeddings & Databases"
+    file: 1-VectorEmbeddingAndDatabases/embeddings
+    sections:
+      - file: 1-VectorEmbeddingAndDatabases/openaiembeddings
+
+  - title: "Vector Store"
+    file: 2-Vector Store/1-chromadb
+    sections:
+      - file: 2-Vector Store/2-faiss
+      - file: 2-Vector Store/3-Othervectorstores
+      - file: 2-Vector Store/4-Datastaxdb
+      - file: 2-Vector Store/5_PineconeVectorDB
+
+  - title: "Advanced Chunking & Preprocessing"
+    file: 3-AdvancedChunkingAndPreprocessing/1-semantichunking
+
+  - title: "Hybrid Search Strategies"
+    file: 4-HybridSearchStrategies/1-densesparse
+    sections:
+      - file: 4-HybridSearchStrategies/2-reranking
+      - file: 4-HybridSearchStrategies/3-mmr
+
+  - title: "Query Enhancement"
+    file: 5-QueryEnhancement/1-queryexpansion
+    sections:
+      - file: 5-QueryEnhancement/2-querydecomposition
+      - file: 5-QueryEnhancement/3-HyDE
+
+  - title: "Multi-Modal RAG"
+    file: 6-MultiModalRag/1-multimodalopenai
+
+  - title: "LangGraph Basics"
+    file: 7-langgraph Basics/1-simplegraph
+    sections:
+      - file: 7-langgraph Basics/2-chatbot
+      - file: 7-langgraph Basics/3-DataclassStateSchema
+      - file: 7-langgraph Basics/4-pydantic
+      - file: 7-langgraph Basics/5-ChainsLangGraph
+      - file: 7-langgraph Basics/6-chatbotswithmultipletools
+      - file: 7-langgraph Basics/7-ReActAgents
+
+  - title: "LangGraph Advanced"
+    file: 8-langgraph advance/1-streaming
+
+  - title: "Workflows"
+    file: 10- Workflows/1-prompting_chaining
+    sections:
+      - file: 10- Workflows/2-parallelization
+      - file: 10- Workflows/3-Routing
+      - file: 10- Workflows/4-orchestrator-worker
+      - file: 10- Workflows/5-Evaluator-optimizer
+
+  - title: "Human in the Loop"
+    file: 11-HumanintheLoop/1-Humanintheloop
+
+  - title: "Advanced RAG Techniques"
+    file: 12-RAGS/1-AgenticRAG
+    sections:
+      - file: 12-RAGS/2-CorrectiveRAG
+      - file: 12-RAGS/3-COTRag
+      - file: 12-RAGS/4-AdaptiveRAG
+
+  - title: "Agentic RAG"
+    file: 13-AgenticRag/1-agenticrag
+    sections:
+      - file: 13-AgenticRag/2-ReAct
+      - file: 13-AgenticRag/3-COTRag
+      - file: 13-AgenticRag/4-Selfreflection
+      - file: 13-AgenticRag/5-QueryPlanningdecomposition
+      - file: 13-AgenticRag/6-Iterativeretrieval
+      - file: 13-AgenticRag/7-answersynthesis
+      - file: 13-AgenticRag/8-multiagent
+      - file: 13-AgenticRag/cache_augment_generation
+      - file: 13-AgenticRag/ragmemory
+
+  - title: "RAG Evaluation"
+    file: 14-RAG EVALUATION/1-rag_evaluation
+
+  - title: "Q&A with Graph DB"
+    file: 15-Q&A WITH GRAPHDB/experiments
+    sections:
+      - file: 15-Q&A WITH GRAPHDB/promptingstartegies
+      - file: 15-Q&A WITH GRAPHDB/promptstatergies
+
+  - title: "Pydantic"
+    file: pydantic/intro
