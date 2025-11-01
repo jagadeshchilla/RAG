@@ -15,7 +15,7 @@ html:
 
 # Repository information (update with your actual repo URL)
 repository:
-  url: https://github.com/yourusername/RAG
+  url: https://github.com/jagadeshchilla/RAG
   branch: main
 
 sphinx:
